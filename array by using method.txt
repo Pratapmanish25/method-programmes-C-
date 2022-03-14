@@ -1,0 +1,32 @@
+using System;
+
+namespace ConsoleApp8
+{
+    public class subodh
+    {
+        public void getdetail(int[] arr)
+        {
+            foreach (int mydetail in arr) 
+            {
+                Console.WriteLine(mydetail);
+            }
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            subodh arr = new subodh();
+            int[] data = new int[5];
+            data[0] = 5;
+            data[1] = 10;
+            data[2] = 15;
+            data[3] = 20;
+            data[4] = 25;
+            
+            arr.getdetail(data);
+            Console.ReadLine();
+
+        }
+    }
+}
